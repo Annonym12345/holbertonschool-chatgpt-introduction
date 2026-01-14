@@ -19,7 +19,5 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-# Get the number from command line arguments,
-# compute its factorial and print the result
 f = factorial(int(sys.argv[1]))
 print(f)
